@@ -11,14 +11,17 @@
 ::after {
   box-sizing: border-box;
 }
-body{
-    height: 100vh;
+
+html, body {
+    height: 100%;
     font-family: "Poppins", sans-serif;
-}
+    overflow-x: hidden;
+  }
 .container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    height: 100%;
 }
 .flex{
     display: flex;
@@ -188,3 +191,19 @@ text-align: left;
    background: transparent;
    gap: 5px;
   }
+
+  @media  (max-width: 767px) {
+    .img-containers {
+       display: none; /* visibility: none; */
+    }
+    .form-container{
+        width: auto;
+    }
+    .bg-section h1{
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .bg-section .text-container .absulate{
+        right: 83%;
+    }
+ }
