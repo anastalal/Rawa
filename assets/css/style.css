@@ -192,10 +192,8 @@ text-align: left;
    gap: 5px;
   }
 
+  /* Responsive */
   @media  (max-width: 767px) {
-    .img-containers {
-       display: none; /* visibility: none; */
-    }
     .form-container{
         width: auto;
     }
