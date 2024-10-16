@@ -1,2 +1,2 @@
 ## Login page using HTML & CSS
-![Alt text](/screenshoot.png?raw=true "Screenshoot")
+![HTML & CSS login page ](/screenshot.png?raw=true "Screenshot")
